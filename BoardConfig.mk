@@ -3,6 +3,8 @@ USE_CAMERA_STUB := true
 # inherit from the proprietary version
 -include vendor/lge/vee3/BoardConfigVendor.mk
 
+BOARD_VENDOR := lge
+
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := unknown
